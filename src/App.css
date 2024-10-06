@@ -1,0 +1,45 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.youtube-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.youtube-image {
+  width: 300px;
+  height: 100%;
+}
+
+.youtube-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.youtube-avatar {
+  width: 50px;
+  height: 100%;
+  border-radius: 90%;
+  padding-top: 10px;
+}
+
+.youtube-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  padding: 10px;
+}
